@@ -25,6 +25,9 @@ ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 ro.lineage.device                      u:object_r:custom_version_prop:s0
 
+# Columbus ApSensor
+persist.columbus.use_ap_sensor         u:object_r:system_prop:s0
+
 # Display
 ro.bootanim.set_orientation_logical_0  u:object_r:surfaceflinger_prop:s0 exact enum ORIENTATION_0 ORIENTATION_90 ORIENTATION_180 ORIENTATION_270
 
