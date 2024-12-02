@@ -31,6 +31,9 @@ persist.vendor.nfc.fw_file_name        u:object_r:vendor_persist_nfc_prop:s0 exa
 # Boot animation
 persist.sys.bootanimation_style        u:object_r:bootanim_system_prop:s0 exact int
 
+# Columbus ApSensor
+persist.columbus.use_ap_sensor         u:object_r:system_prop:s0
+
 # Dolby Properties
 ro.vendor.dolby.dax.version            u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
