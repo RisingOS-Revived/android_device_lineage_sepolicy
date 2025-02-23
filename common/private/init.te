@@ -1,2 +1,5 @@
 # Adblock
 allow init system_file:file mounton;
+
+# Smart Charge
+allow init sysfs_batteryinfo:file rw_file_perms;
