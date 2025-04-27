@@ -50,3 +50,4 @@ persist.columbus.use_ap_sensor          u:object_r:system_prop:s0
 
 # USB
 ro.usb.uvc.disable_video_encode_flag   u:object_r:usb_uvc_config_prop:s0
+vendor.usb.uvc.payload_transfer_size   u:object_r:usb_uvc_config_prop:s0
