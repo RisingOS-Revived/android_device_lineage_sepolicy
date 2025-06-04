@@ -20,3 +20,6 @@ boost_framework                              u:object_r:boost_framework_service:
 
 # PopUP view
 resolution_ext                     u:object_r:display_resolution_manager_service:s0
+
+# Refresh Rate Manager
+refresh_rate_ext                          u:object_r:refresh_rate_manager_service:s0
