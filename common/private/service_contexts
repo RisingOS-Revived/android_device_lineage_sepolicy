@@ -17,3 +17,6 @@ lmo_freeform                              u:object_r:lmo_freeform_service:s0
 
 # Boost framework
 boost_framework                              u:object_r:boost_framework_service:s0
+
+# PopUP view
+resolution_ext                     u:object_r:display_resolution_manager_service:s0

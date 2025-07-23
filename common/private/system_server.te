@@ -32,3 +32,6 @@ add_service(system_server, boost_framework_service);
 # Boot animation
 allow system_server bootanim_data_file:dir create_dir_perms;
 allow system_server bootanim_data_file:file create_file_perms;
+
+# Display Resolution Manager
+add_service(system_server, display_resolution_manager_service);
